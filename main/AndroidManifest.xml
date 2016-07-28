@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="errormjt.mason980.plant_tracker" >
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-feature android:name="android.hardware.camera" android:required="true"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="errormjt.mason980.plant_tracker.GardenActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="errormjt.mason980.plant_tracker.Search"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name="errormjt.mason980.plant_tracker.Garden_edit"
+            android:label="@string/title_activity_garden_edit" >
+        </activity>
+        <activity
+            android:name="errormjt.mason980.plant_tracker.Plant_edit"
+            android:label="@string/title_activity_plant_edit" >
+        </activity>
+        <activity
+            android:name="errormjt.mason980.plant_tracker.PlantActivity"
+            android:label="@string/title_activity_plant" >
+        </activity>
+        <activity
+            android:name="errormjt.mason980.plant_tracker.Result"
+            android:label="@string/title_activity_result" >
+        </activity>
+    </application>
+
+</manifest>

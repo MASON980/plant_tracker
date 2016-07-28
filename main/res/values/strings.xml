@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Plant Tracker</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_plant">Plant</string>
+    <string name="title_activity_garden_edit">Garden Edit</string>
+    <string name="title_activity_plant_edit">Plant Edit</string>
+    <string name="title_activity_garden">Garden</string>
+    <string name="title_activity_result">Result</string>
+
+    <string name="take_img">Take Image</string>
+    <string name="garden">Garden</string>
+    <string name="submit">Submit</string>
+    <string name="show_image">Show Image</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+
+</resources>
